@@ -1,9 +1,10 @@
 # 🐟 EdgeURL 爬虫工具
 
+> 基于 Edge 浏览器的高效 URL 爬取器，专为网络信息收集设计
+
 <img width="2532" height="1430" alt="image" src="https://github.com/user-attachments/assets/c02f853e-b4a8-41c7-bce5-2d2dc317deed" />
 
 
-> 基于 Edge 浏览器的高效 URL 爬取器，专为网络信息收集设计
 
 ## 📑 目录
 
