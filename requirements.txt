@@ -1,0 +1,26 @@
+# 核心浏览器自动化库
+selenium==4.15.2
+
+# 终端颜色输出支持
+colorama==0.4.6
+
+# 数据处理与Excel文件操作
+pandas==2.1.4
+openpyxl==3.1.2
+
+# 加密相关功能支持
+pycryptodome==3.20.0
+
+# 邮件发送支持
+smtplib==0.1.1  # 通常随Python标准库提供，此处列出确保兼容性
+email==4.0.3     # 邮件构造库
+
+# 网络请求与代理支持
+requests==2.31.0
+
+# 时间处理工具
+python-dateutil==2.8.2
+
+# 确保兼容性的附加依赖
+six==1.16.0
+urllib3==2.1.0
