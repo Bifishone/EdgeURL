@@ -384,7 +384,7 @@ def crawl_domain(driver, query, proxy=None):
 
     return all_normal_urls, all_doc_urls, all_html_urls, page_num - 1
 
-
+#以下的邮箱推送信息，可以做个性化的自定义
 def generate_email_content(domain_stats, total_domains, total_urls, total_pages, execution_time):
     """生成详细的邮件内容"""
     content = f"""
@@ -532,9 +532,9 @@ def main():
     email_content = generate_email_content(domain_stats, total_domains, total_urls, total_pages, execution_time)
 
     config = {
-        "sender_email": "1794686508@qq.com",
-        "sender_password": "busnjcluyxtlejgc",
-        "receiver_email": "shenghui3301@163.com",
+        "sender_email": "your_Email@qq.com",
+        "sender_password": "your_password",
+        "receiver_email": "your_Email@163.com",
         "subject": f"📧 EdgeURL 爬取完成！共获取 {total_urls} 个URL",
         "content": email_content
     }
@@ -550,4 +550,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
